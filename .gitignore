@@ -1,0 +1,65 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (usually large)
+data/raw/*
+data/processed/*
+*.csv
+*.xlsx
+*.db
+*.sqlite
+
+# Keep .gitkeep files to track empty folders
+!.gitkeep
+
+# Artifacts (generated files)
+artifacts/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.model
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files
+*.pth
+*.weights
+*.ckpt
+
+# Docker
+*.tar
+
+# Azure
+.azure/
