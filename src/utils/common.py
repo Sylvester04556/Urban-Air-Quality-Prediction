@@ -6,7 +6,7 @@ import json
 import yaml
 import pandas as pd
 from pathlib import Path
-from typing import Any, Dict, Lists
+from typing import Any, Dict, List
 
 from src.logger import logging
 from src.exception import CustomException
